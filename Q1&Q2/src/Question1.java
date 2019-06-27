@@ -17,6 +17,7 @@ public class Question1 {
         System.out.println(equalsWhenOneCharRemoved("abcde", "ab"));
     }
 
+    // time complexity: O(n^2), the time complexity for substring method is O(n)
     public static boolean equalsWhenOneCharRemoved(String x, String y){
         // l represents the string with longer length
         // s represents the string with shorter length
